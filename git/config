@@ -1,0 +1,11 @@
+[user]
+	name = Fabio Mazzone
+	email = fabio.mazzone@nordsys.de
+	username = fabiomazzone
+
+[core]
+	editor = vim
+[color]
+	ui = auto
+[credential]
+	helper = cache
