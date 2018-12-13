@@ -6,6 +6,9 @@ source $ADOTDIR/plugins/antigen/antigen.zsh
 
 antigen use oh-my-zsh
 
+antigen bundle git
+antigen bundle yarn
+antigen bundle npm 
 antigen bundle sdkman/sdkman-cli zsh
 antigen bundle joel-porquet/zsh-dircolors-solarized.git
 
