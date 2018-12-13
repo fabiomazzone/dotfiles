@@ -5,6 +5,8 @@ ENVSDIR=$(dirname $0:A)/envs
 env_files+="$ENVSDIR/antigen.zsh"
 env_files+="$ENVSDIR/sdkman.zsh"
 env_files+="$ENVSDIR/tmux.zsh"
+env_files+="$ENVSDIR/vim.zsh"
+env_files+="$ENVSDIR/path.zsh"
 
 for file in $env_files[@]; do 
 	if [[ -a "$file" ]] then
