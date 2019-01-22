@@ -1,2 +1,4 @@
 *.zwc
 git/user
+vim/autoload/plug.vim
+hub
