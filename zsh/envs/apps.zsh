@@ -1,5 +1,5 @@
 # App Specific env vars
-
+export JAVA_HOME="/usr/lib/jvm/default-java"
 export TMUX_TMPDIR="$XDG_RUNTIME_DIR"
 export SDKMAN_DIR="$XDG_DATA_HOME/sdkman"
 export VIMINIT=":source $XDG_CONFIG_HOME/vim/vimrc"
