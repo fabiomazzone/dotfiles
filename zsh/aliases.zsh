@@ -1,10 +1,13 @@
-# Fabios shell aliases
+# my shell aliases
 
-## Applications
+## Change Application Configs
 alias yarn="yarn --use-yarnrc $XDG_CONFIG_HOME/yarn/yarnrc"
 alias tmux='tmux -f "$XDG_CONFIG_HOME"/tmux/tmux.conf'
 alias mvn='mvn -gs "$XDG_CONFIG_HOME"/maven/settings.xml'
-alias git=hub
+
+if type hub &> /dev/null; then
+  alias git=hub
+fi
 
 # directory shortcuts
 alias ..="cd .."

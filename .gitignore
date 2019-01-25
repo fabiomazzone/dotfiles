@@ -1,0 +1,48 @@
+# Zsh Compile Files
+*.zwc
+
+# Git 
+git/user
+hub
+
+# Vim
+vim/autoload/plug.vim
+
+# VS Code
+Code/Backups
+Code/Cache
+Code/CachedData
+Code/CachedExtensions
+Code/Code
+Code/Local Storage
+Code/GPUCache
+Code/logs
+Code/User/workspaceStorage
+Code/Cookies*
+
+# general
+
+autostart
+configstore
+dconf
+enchant
+evolution
+gedit
+gnome-games
+gnome-session
+goa-1.0
+google-chrome
+gtk-3.0
+gtk-4.0
+htop
+ibus
+menus
+nautilus
+pulse
+update-notifier
+
+gnome-initial-setup-done
+mimeapps.list
+user-dirs.dirs
+user-dirs.locale
+
