@@ -1,0 +1,22 @@
+{
+    "window.titleBarStyle": "custom",
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
+    "files.watcherExclude": {
+        "**/.git/**": true
+    },
+    "editor.tabSize": 2,
+    "explorer.confirmDragAndDrop": false,
+    "editor.rulers": [
+        100
+    ],
+    "eslint.packageManager": "yarn",
+    "eslint.run": "onSave",
+    "eslint.autoFixOnSave": true,
+    "editor.fontLigatures": true,
+    "breadcrumbs.enabled": true,
+    "editor.hover.delay": 10,
+    "editor.quickSuggestionsDelay": 5,
+    "javascript.updateImportsOnFileMove.enabled": "never"
+}

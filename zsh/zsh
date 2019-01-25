@@ -1,2 +1,0 @@
-source $(dirname $0:A)/envs.zsh
-source $(dirname $0:A)/aliases.zsh
