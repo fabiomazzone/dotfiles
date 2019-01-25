@@ -19,6 +19,7 @@ Code/GPUCache
 Code/logs
 Code/User/workspaceStorage
 Code/Cookies*
+Code/storage.json
 
 # general
 
@@ -39,6 +40,7 @@ ibus
 menus
 nautilus
 pulse
+spotify
 update-notifier
 
 gnome-initial-setup-done
