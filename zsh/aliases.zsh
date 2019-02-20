@@ -16,3 +16,4 @@ alias ...="cd ../.."
 # smart defaults arg
 alias tree="tree -L 2"
 
+alias pip=pip3
