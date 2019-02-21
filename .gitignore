@@ -17,8 +17,10 @@ Code/Code
 Code/Local Storage
 Code/GPUCache
 Code/logs
+Code/User/globalStorage/
 Code/User/workspaceStorage
 Code/Cookies*
+Code/Network Persistent State
 Code/storage.json
 
 # general
