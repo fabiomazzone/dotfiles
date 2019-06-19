@@ -12,6 +12,9 @@ antigen bundle command-not-found
 antigen bundle yarn
 antigen bundle npm
 antigen bundle pip
+antigen bundle cloudfoundry
+antigen bundle dannyzen/cf-zsh-autocomplete-plugin
+antigen bundle aws 
 
 antigen bundle sdkman/sdkman-cli zsh
 antigen bundle joel-porquet/zsh-dircolors-solarized.git
