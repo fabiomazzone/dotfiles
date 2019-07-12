@@ -11,6 +11,8 @@ export TMUX_TMPDIR="$XDG_RUNTIME_DIR"
 export SDKMAN_DIR="$XDG_DATA_HOME/sdkman"
 export VIMINIT=":source $XDG_CONFIG_HOME/vim/vimrc"
 export NPM_CONFIG_USERCONFIG=$XDG_CONFIG_HOME/npm/npmrc
+export NVM_AUTO_USE=true
+export NVM_DIR="$XDG_DATA_HOME/nvm"
 
 ## Antigen
 export ADOTDIR=$XDG_DATA_HOME/antigen
