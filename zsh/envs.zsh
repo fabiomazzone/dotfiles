@@ -18,6 +18,10 @@ export ANTIGEN_COMPDUMP=$XDG_CACHE_HOME/compdump
 export ANTIGEN_COMPDUMPFILE=$ANTIGEN_COMPDUMP
 export _ZSH_DIRCOLORS_SOLARIZED_CONF=$XDG_CONFIG_HOME/zsh/dircolors
 
+# AWS CLI
+export AWS_SHARED_CREDENTIALS_FILE="$XDG_CONFIG_HOME"/aws/credentials
+export AWS_CONFIG_FILE="$XDG_CONFIG_HOME"/aws/config
+
 # Paths
 export GOPATH="$HOME/.cache/go"
 export PATH="$GOPATH/bin/:$PYENV_ROOT/bin:$HOME/.local/bin:$PATH"
