@@ -14,10 +14,11 @@ antigen bundle npm
 antigen bundle pip
 antigen bundle cloudfoundry
 antigen bundle dannyzen/cf-zsh-autocomplete-plugin
-antigen bundle aws 
+antigen bundle aws
 antigen bundle lukechilds/zsh-nvm
 antigen bundle nvm
 antigen bundle pyenv
+antigen bundle pip
 antigen bundle sdkman/sdkman-cli zsh
 antigen bundle joel-porquet/zsh-dircolors-solarized.git
 antigen bundle lukechilds/zsh-better-npm-completion
