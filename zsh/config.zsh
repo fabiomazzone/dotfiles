@@ -24,6 +24,7 @@ antigen bundle pyenv
 antigen bundle sdkman/sdkman-cli zsh
 antigen bundle joel-porquet/zsh-dircolors-solarized.git
 antigen bundle lukechilds/zsh-better-npm-completion
+antigen bundle mollifier/cd-gitroot
 
 antigen theme agnoster
 
