@@ -7,6 +7,7 @@ source $ADOTDIR/plugins/antigen/antigen.zsh
 
 antigen use oh-my-zsh
 
+antigen bundle lukechilds/zsh-nvm
 antigen bundle git
 antigen bundle command-not-found
 antigen bundle yarn
@@ -17,7 +18,6 @@ antigen bundle sbt
 antigen bundle cloudfoundry
 antigen bundle dannyzen/cf-zsh-autocomplete-plugin
 antigen bundle aws
-antigen bundle lukechilds/zsh-nvm
 antigen bundle nvm
 antigen bundle git-flow
 antigen bundle pyenv
