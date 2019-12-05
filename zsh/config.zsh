@@ -5,32 +5,7 @@ source $(dirname $0:A)/aliases.zsh
 
 source $ADOTDIR/plugins/antigen/antigen.zsh
 
-antigen use oh-my-zsh
-
-antigen bundle lukechilds/zsh-nvm
-antigen bundle git
-antigen bundle command-not-found
-antigen bundle yarn
-antigen bundle npm
-antigen bundle pip
-antigen bundle docker
-antigen bundle sbt
-antigen bundle cloudfoundry
-antigen bundle dannyzen/cf-zsh-autocomplete-plugin
-antigen bundle aws
-antigen bundle nvm
-antigen bundle git-flow
-antigen bundle pyenv
-antigen bundle sdkman/sdkman-cli zsh
-antigen bundle joel-porquet/zsh-dircolors-solarized.git
-antigen bundle lukechilds/zsh-better-npm-completion
-antigen bundle mollifier/cd-gitroot
-antigen bundle kubectl
-antigen bundle helm
-
-antigen theme agnoster
-
-antigen apply
+antigen init $(dirname $0:A)/antigen.zsh
 
 setupsolarized dircolors.ansi-dark
 
